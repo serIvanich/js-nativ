@@ -19,3 +19,6 @@ console.log(Object.values(users))
 newUser = {id: 77, name: 'Tanysha'}
 users['77'] = newUser
 console.log(Object.values(users))
+
+users['77'].name = 'Valya'
+console.log(Object.values(users))
